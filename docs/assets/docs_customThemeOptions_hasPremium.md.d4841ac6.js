@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./app.a3211ce2.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/customThemeOptions/hasPremium.md"}'),a={name:"docs/customThemeOptions/hasPremium.md"};function o(r,c,m,n,i,p){return t(),s("div")}var u=e(a,[["render",o]]);export{_ as __pageData,u as default};

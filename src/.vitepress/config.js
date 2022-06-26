@@ -29,7 +29,7 @@ export default {
     lineNumbers: true
   },
   themeConfig: {
-    siteTitle: 'My Custom Title',
+    siteTitle: 'Soft UI Docs',
     logo: 'favicon.png',
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
