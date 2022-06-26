@@ -1,5 +1,4 @@
-# 
-#[ThemeConfig].index.card
+# Card
 #### **[Parent: index](/docs/index/)**
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains the information for the card.
 
