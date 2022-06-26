@@ -1,5 +1,5 @@
 export default {
-  title: 'VitePress',
+  title: 'Soft UI Docs',
   description: 'Just playing around.',
 
   themeConfig: {

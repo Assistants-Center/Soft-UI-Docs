@@ -1,6 +1,5 @@
-# 
-#[ThemeConfig].commands > Category - list
-#### **[Parent: category](/docs/commands/category/)**
+# List
+#### **[Parent: category](/docs/commands/)**
 An [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) for commands.
 
 ## Example Usage
