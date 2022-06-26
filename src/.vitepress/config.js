@@ -1,7 +1,7 @@
 export default {
   title: 'Soft UI Docs',
   description: '.',
-
+  outDir: '../docs',
   themeConfig: {
     siteTitle: 'My Custom Title',
     logo: '/my-logo.svg',

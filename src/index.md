@@ -1,15 +1,15 @@
 ---
-home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /intro/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Written with pain by Plain
+layout: home
+
+hero:
+  name: Soft UI
+  text: Vite & Vue powered static site generator.
+  tagline: Lorem ipsum...
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/what-is-vitepress
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
 ---

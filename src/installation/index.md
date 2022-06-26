@@ -31,25 +31,24 @@ With the terminal open, run `node -v` to ensure you've successfully installed No
 
 <br>
 
-<code-group>
-<code-block title="NPM">
+```ts [TypeScript]
+const a: number = 1
+```
+
+NPM
 ```bash
 npm init
 ```
-</code-block>
 
-<code-block title="YARN">
+YARN
 ```bash
 yarn init
 ```
-</code-block>
 
-<code-block title="PNPM">
+PNPM
 ```bash
 pnpm init
 ```
-</code-block>
-</code-group>
 This next command creates a `package.json` file for you, which keeps track of dependencies of your project as well as some other stuff!
 
 It will ask you a sequence of questions, you should answer them as you see fit. If you're not sure on something or want to skip it; leave it blank and press enter.
@@ -60,24 +59,18 @@ Once you're done answering the questions, you're ready to install [discord-dashb
 Now that you've installed Node.js and know how to open your console and run commands, you can finally install discord-dashboard and Soft-UI!<br>
 Run the following command in your terminal:
 
-<code-group>
-<code-block title="NPM">
+NPM
 ```bash
 npm install discord-dashboard dbd-soft-ui discord.js
 ```
-</code-block>
 
-<code-block title="YARN">
+YARN
 ```bash
 yarn install discord-dashboard dbd-soft-ui discord.js
 ```
-</code-block>
 
-<code-block title="PNPM">
+PNPM
 ```bash
 pnpm install discord-dashboard dbd-soft-ui discord.js
 ```
-</code-block>
-</code-group>
-
 And now that we've installed the necessities, we can start setting up the dashboard!
