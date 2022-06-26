@@ -1,18 +1,18 @@
 export default {
   title: 'Soft UI Docs',
-  description: 'Just playing around.',
+  description: '.',
 
   themeConfig: {
     siteTitle: 'My Custom Title',
     logo: '/my-logo.svg',
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: 'Suggest an edit.'
     },
     lastUpdated: true,
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2019-present [Assistants center](https://github.com/Assistants-Center)'
     },
     algolia: {
       appId: '8J64VVRP8K',

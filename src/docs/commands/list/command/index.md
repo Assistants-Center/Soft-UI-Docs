@@ -1,6 +1,5 @@
-# 
-#[ThemeConfig].commands > Category > list - Command
-#### **[Parent: category](/docs/commands/category/list/)**
+# Command
+#### **[Parent: category](/docs/commands/list/)**
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which is a command.
 
 ## Example Usage
@@ -22,10 +21,10 @@ theme: SoftUI({
 ```
 
 ## Properties
-* [commandName](/docs/commands/category/list/command/commandName)
-* [commandUsage](/docs/commands/category/list/command/commandUsage)
-* [commandDescription](/docs/commands/category/list/command/commandDescription)
-* [commandAlias](/docs/commands/category/list/command/commandAlias)
+* [commandName](/docs/commands/list/command/commandName)
+* [commandUsage](/docs/commands/list/command/commandUsage)
+* [commandDescription](/docs/commands/list/command/commandDescription)
+* [commandAlias](/docs/commands/list/command/commandAlias)
 
 ## Types
 - [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

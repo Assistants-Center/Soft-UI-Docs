@@ -14,11 +14,11 @@ theme: SoftUI({
 ```
 
 ## Properties
-* [command](/docs/commands/category/list/command/)
-    * [commandName](/docs/commands/category/list/command/commandName)
-    * [commandUsage](/docs/commands/category/list/command/commandUsage)
-    * [commandDescription](/docs/commands/category/list/command/commandDescription)
-    * [commandAlias](/docs/commands/category/list/command/commandAlias)
+* [command](/docs/commands/list/command/)
+    * [commandName](/docs/commands/list/command/commandName)
+    * [commandUsage](/docs/commands/list/command/commandUsage)
+    * [commandDescription](/docs/commands/list/command/commandDescription)
+    * [commandAlias](/docs/commands/list/command/commandAlias)
 
 ## Types
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
