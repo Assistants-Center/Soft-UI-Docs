@@ -2,7 +2,7 @@
 ## Creating config.json
 We will be creating a new file, `config.json`, which will house all our important (and secret) settings!
 Paste the following code into the file and replace as necessary:
-```js
+```json
 {
     "discord": {
         "token": "discordToken",

@@ -2,9 +2,35 @@ export default {
   title: 'Soft UI Docs',
   description: '.',
   outDir: '../docs',
+  head: [
+      ['link', { rel: 'icon', href: 'favicon.ico' }],
+      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+      ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+      ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+      ['meta', { name: 'apple-mobile-web-app-title', content: 'Soft UI Docs' }],
+      ['meta', { name: 'application-name', content: 'Soft UI Docs' }],
+      ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+      ['meta', { name: 'msapplication-TileImage', content: '/mstile-144x144.png' }],
+      ['meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
+      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+      ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+      ['meta', { property: 'og:title', content: 'Soft UI Docs' }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:url', content: 'https://softui.vitepress.com' }],
+      ['meta', { property: 'og:description', content: '.' }],
+      ['meta', { property: 'og:image', content: 'https://softui.vitepress.com/logo.png' }],
+      ['meta', { property: 'og:image:width', content: '1200' }],
+      ['meta', { property: 'og:image:height', content: '630' }],
+      ['meta', { property: 'og:image:alt', content: 'Soft UI Docs' }],
+      ['meta', { property: 'og:image:type', content: 'image/png' }]
+    ],
+
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     siteTitle: 'My Custom Title',
-    logo: '/my-logo.svg',
+    logo: 'favicon.png',
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
       text: 'Suggest an edit.'
@@ -32,16 +58,17 @@ export default {
           text: 'Information',
           collapsible: true,
           items: [
-            { text: 'Introduction', link: '/guide/what-is-vitepress' },
-            { text: 'Frequently Asked Questions', link: '/guide/getting-started' },
+            { text: 'Introduction', link: '/intro/' },
+            { text: 'Frequently Asked Questions', link: '/faq/' },
+            { text: 'Our Team', link: '/team' },
           ]
         },
         {
           text: 'Installation',
           collapsible: true,
           items: [
-            { text: 'Installation', link: '/guide/markdown' },
-            { text: 'Setup', link: '/guide/asset-handling' },
+            { text: 'Installation', link: '/installation/' },
+            { text: 'Setup', link: '/setup/' },
           ]
         },
         {
@@ -51,7 +78,7 @@ export default {
             { text: 'Addons', link: '/docs/addons' },
             { text: 'Wesite Name', link: '/docs/websiteName' },
             { text: 'Color Scheme', link: '/docs/colorScheme' },
-            { text: 'Support Email', link: 'supporteMail' },
+            { text: 'Support Email', link: '/docs/supporteMail' },
             { text: 'Locales', link: '/docs/locales' },
             { text: 'Admin', link: '/docs/admin/' },
             { text: 'Icons', link: '/docs/icons/' },
@@ -71,14 +98,7 @@ export default {
           text: 'Theme Formtypes',
           collapsible: true,
           items: [
-            {
-              text: 'Migration from VuePress',
-              link: '/guide/migration-from-vuepress'
-            },
-            {
-              text: 'Migration from VitePress 0.x',
-              link: '/guide/migration-from-vitepress-0'
-            }
+            { text: 'To be finished', link: '/'},
           ]
         }
       ]
