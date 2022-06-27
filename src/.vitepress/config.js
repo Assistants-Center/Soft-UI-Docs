@@ -24,7 +24,7 @@ export default {
       ['meta', { property: 'og:image:alt', content: 'Soft UI Docs' }],
       ['meta', { property: 'og:image:type', content: 'image/png' }]
     ],
-
+  lastUpdated: true,
   markdown: {
     lineNumbers: true
   },
@@ -32,7 +32,7 @@ export default {
     siteTitle: 'Soft UI Docs',
     logo: 'favicon.png',
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/iMidnights/VitePres-Docs/edit/main/src/:path',
       text: 'Suggest an edit.'
     },
     lastUpdated: true,

@@ -23,7 +23,7 @@ Paste the following code into the file and replace as necessary:
 The configuration above will not work unless you change the values of the properties.
 ## Creating index.js
 Create a new file, `index.js` (or anything you'd like) and paste the discord-dashboard handler into it.
-```js
+```js{21}
 // Define Packages
 const { Client, Intents } = require('discord.js');
 const config = require('./config.json');
@@ -62,8 +62,8 @@ At the beginning of `index.js`, place this line of code:
 const SoftUI = require('dbd-soft-ui');
 ```
 
-On line 18 of `index.js`, you'll see the following line of code:
-```js
+On line 21 of `index.js`, you'll see the following line of code:
+```js{1}
 bot: client,
 ```
 Press return to create a new line and place the following code on said line:

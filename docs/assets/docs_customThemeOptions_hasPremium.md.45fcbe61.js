@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.9ee15320.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/customThemeOptions/hasPremium.md","lastUpdated":1656272349000}'),s={name:"docs/customThemeOptions/hasPremium.md"};function o(r,c,m,n,i,p){return t(),a("div")}var u=e(s,[["render",o]]);export{_ as __pageData,u as default};
