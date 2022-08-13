@@ -10,6 +10,6 @@ hero:
       text: Get Started
       link: /intro/
     - theme: alt
-      text: View on GitHub
+      text: View on GitHubs
       link: https://github.com/Assistants-Center/dbd-soft-ui
 ---
