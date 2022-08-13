@@ -12,5 +12,8 @@
     "docs:dev": "vitepress dev src",
     "docs:build": "vitepress build src",
     "docs:serve": "vitepress serve src"
+  },
+  "dependencies": {
+    "virtual": "^0.2.0"
   }
 }

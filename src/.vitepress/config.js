@@ -60,7 +60,6 @@ export default {
           items: [
             { text: 'Introduction', link: '/intro/' },
             { text: 'Frequently Asked Questions', link: '/faq/' },
-            { text: 'Our Team', link: '/team' },
           ]
         },
         {
