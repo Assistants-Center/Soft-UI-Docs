@@ -38,7 +38,7 @@ export default {
     lastUpdated: true,
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present [Assistants center](https://github.com/Assistants-Center)'
+      copyright: `Copyright © 2019-${new Date().getFullYear()} [Assistants center](https://github.com/Assistants-Center)`
     },
     algolia: {
       appId: '8J64VVRP8K',
@@ -99,8 +99,16 @@ export default {
           items: [
             { text: 'To be finished', link: '/'},
           ]
-        }
+        },
+        {
+          text: 'Hosting',
+          collapsible: true,
+          items: [
+            { text: 'Heroku', link: '/hosting/heroku/' },
+            { text: 'Replit', link: '/hosting/repl/' },
+            { text: 'Pterodactyl', link: '/hosting/pterodactyl/' },
+          ]
+        },
       ]
-    
   }
 }
