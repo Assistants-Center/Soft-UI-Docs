@@ -21,7 +21,6 @@ theme: SoftUI({
 
 ## Properties
 * [enabled](/docs/premium/enabled)
-* [hasPremium](/docs/customThemeOptions/hasPremium)
 * [card](/docs/premium/card/)
   * [title](/docs/premium/card/title)
   * [description](/docs/premium/card/description)
