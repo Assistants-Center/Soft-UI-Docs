@@ -36,8 +36,8 @@ theme: SoftUI({
 The maximum number of cards to be returned is 4.
 
 ### Properties
-* [cards](/docs/soft-ui/customThemeOptions/index/cards/)
-* [graph](/docs/soft-ui/customThemeOptions/index/graph/)
+* [cards](/docs/customThemeOptions/index/cards/)
+* [graph](/docs/customThemeOptions/index/graph/)
 
 ### Types
 - [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
