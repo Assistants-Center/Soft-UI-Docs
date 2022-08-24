@@ -2,6 +2,7 @@ export default {
   title: 'Soft UI Docs',
   description: '.',
   outDir: '../docs',
+  base: '/soft-ui/',
   head: [
       ['link', { rel: 'icon', href: 'favicon.ico' }],
       ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -74,6 +75,7 @@ export default {
           text: 'Theme Config',
           collapsible: true,
           items: [
+            { text: 'Custom Theme Options', link: '/docs/customThemeOptions/' },
             { text: 'Addons', link: '/docs/addons' },
             { text: 'Wesite Name', link: '/docs/websiteName' },
             { text: 'Color Scheme', link: '/docs/colorScheme' },
