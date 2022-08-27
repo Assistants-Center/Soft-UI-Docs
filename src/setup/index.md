@@ -16,7 +16,7 @@ Paste the following code into the file and replace as necessary:
         "domain": "http://localhost",
         "redirectUri": "/discord/callback",
         "license": "dbdLicense",
-        "ownerIDs": ["427534456169955352"]
+        "ownerIDs": ["Dashboard Admin Discord User IDs"]
     }
 }
 ```
@@ -122,7 +122,12 @@ theme: SoftUI({
         success: {
             login: "Successfully logged in.",
         }
-    },    
+    },
+    preloader: {
+        image: "/img/soft-ui.webp",
+        spinner: false,
+        text: "Page is loading",
+    },
     admin: {
         pterodactyl: {
             enabled: false,

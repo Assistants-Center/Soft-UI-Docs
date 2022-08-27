@@ -12,4 +12,7 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/Assistants-Center/dbd-soft-ui
+    - theme: alt
+      text: View on NPM
+      link: https://www.npmjs.com/package/dbd-soft-ui
 ---

@@ -1,5 +1,9 @@
 # Locales
-An [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) which includes the available languages visible on the website.
+An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) containing all of the locales to be used.
+
+::: info
+The **top** most locale will be the default locale will be used when no locale is detected from the browser. By not defining `themeConfig.locales` the themes premade locale will be used.
+:::
 
 ## Example Usage
 ```js
@@ -101,4 +105,4 @@ theme: SoftUI({
 ```
 
 ## Types:
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
