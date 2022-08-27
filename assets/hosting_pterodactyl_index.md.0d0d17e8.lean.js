@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.c05cecab.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hosting/pterodactyl/index.md","lastUpdated":1661356073000}'),r={name:"hosting/pterodactyl/index.md"};function o(n,s,c,d,i,p){return a(),t("div")}var m=e(r,[["render",o]]);export{l as __pageData,m as default};

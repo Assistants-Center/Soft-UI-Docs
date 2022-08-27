@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.c05cecab.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hosting/repl/index.md","lastUpdated":1661356073000}'),r={name:"hosting/repl/index.md"};function n(o,s,c,d,i,p){return a(),t("div")}var m=e(r,[["render",n]]);export{l as __pageData,m as default};
