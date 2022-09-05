@@ -99,7 +99,15 @@ export default {
           text: 'Theme Formtypes',
           collapsible: true,
           items: [
-            { text: 'To be finished', link: '/'},
+            { text: 'Collabsable', link: '/formtypes/collabsable' },
+            { text: 'Date', link: '/formtypes/date'},
+            { text: 'Modal', link: '/formtypes/modal'},
+            { text: 'Number Picker', link: '/formtypes/numberPicker'},
+            { text: 'Slider', link: '/formtypes/slider'},
+            { text: 'Tag Input', link: '/formtypes/tagInput'},
+            { text: 'Upload', link: '/formtypes/upload'},
+            { text: 'Visual Embed', link: '/formtypes/visualEmbed'},
+
           ]
         },
         {
