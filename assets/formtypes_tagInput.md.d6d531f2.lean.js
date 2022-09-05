@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.065e9288.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"formtypes/tagInput.md","lastUpdated":1662405443000}'),r={name:"formtypes/tagInput.md"};function o(s,n,p,c,d,_){return a(),e("div")}const i=t(r,[["render",o]]);export{f as __pageData,i as default};
