@@ -67,7 +67,7 @@ npm install discord-dashboard dbd-soft-ui discord.js
 
 ::: details YARN
 ```bash
-yarn install discord-dashboard dbd-soft-ui discord.js
+yarn add discord-dashboard dbd-soft-ui discord.js
 ```
 :::
 
