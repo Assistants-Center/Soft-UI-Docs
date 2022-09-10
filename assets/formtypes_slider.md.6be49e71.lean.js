@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.065e9288.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"formtypes/slider.md","lastUpdated":1662405443000}'),s={name:"formtypes/slider.md"};function a(o,c,n,d,p,i){return r(),t("div")}const m=e(s,[["render",a]]);export{l as __pageData,m as default};

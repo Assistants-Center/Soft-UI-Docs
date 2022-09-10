@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.065e9288.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"formtypes/collabsable.md","lastUpdated":1662405443000}'),o={name:"formtypes/collabsable.md"};function s(r,c,l,n,p,d){return a(),t("div")}const f=e(o,[["render",s]]);export{m as __pageData,f as default};

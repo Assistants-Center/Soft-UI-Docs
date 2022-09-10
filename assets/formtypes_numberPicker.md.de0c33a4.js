@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.065e9288.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"formtypes/numberPicker.md","lastUpdated":1662405443000}'),a={name:"formtypes/numberPicker.md"};function o(s,c,n,p,m,i){return r(),t("div")}const f=e(a,[["render",o]]);export{_ as __pageData,f as default};
