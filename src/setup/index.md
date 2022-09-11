@@ -175,7 +175,7 @@ client.login(config.discord.token);
                 index: async ({ req, res, config }) => {
                     return {
                         values: [],
-                        graphInfo: {},
+                        graph: {},
                         cards: [],
                     }
                 },
