@@ -31,7 +31,7 @@ export const teamMembers: CoreTeam[] = [
         { icon: 'github', link: 'https://github.com/PlainDevelopment' },
         { icon: 'twitter', link: 'https://twitter.com/plainstuff' }
     ]
-},
+  },
 {
     avatar: 'https://avatars.githubusercontent.com/u/68955155',
     name: 'iMidnight',
@@ -40,6 +40,15 @@ export const teamMembers: CoreTeam[] = [
         { icon: 'github', link: 'https://github.com/iMidnights' },
         { icon: 'twitter', link: 'https://twitter.com/iMidnight4' }
     ]
+},
+{
+  avatar: 'https://avatars.githubusercontent.com/u/47569748',
+  name: 'ArtificialAI',
+  title: 'Soft UI Developer',
+  links: [
+      { icon: 'github', link: 'https://github.com/artificialai223' },
+      { icon: 'twitter', link: 'https://twitter.com/SleekProgrammer' }
+  ]
 },
 {
     avatar: 'https://avatars.githubusercontent.com/u/62174194',
