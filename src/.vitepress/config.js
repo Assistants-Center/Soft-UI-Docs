@@ -87,6 +87,7 @@ export default {
             { text: 'Premium', link: '/docs/premium/' },
             { text: 'Preloader', link: '/docs/preloader/' },
             { text: 'Sidebar', link: '/docs/sidebar/' },
+            { text: 'Sharding', link: '/docs/sharding/' },
             { text: 'Meta', link: '/docs/meta/' },
             { text: 'Error', link: '/docs/error/' },
             { text: 'Sweet Alert', link: '/docs/sweetalert/' },
