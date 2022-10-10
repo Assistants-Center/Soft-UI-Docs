@@ -33,13 +33,13 @@ export default {
     siteTitle: 'Soft UI Docs',
     logo: 'favicon.png',
     editLink: {
-      pattern: 'https://github.com/iMidnights/VitePres-Docs/edit/main/src/:path',
+      pattern: 'https://github.com/Assistants-Center/Soft-UI-Docs',
       text: 'Suggest an edit.'
     },
     lastUpdated: true,
     footer: {
       message: 'Released under the MIT License.',
-      copyright: `Copyright © 2019-${new Date().getFullYear()} [Assistants center](https://github.com/Assistants-Center)`
+      copyright: `Copyright © 2019-${new Date().getFullYear()} Assistants Center`
     },
     algolia: {
       appId: '8J64VVRP8K',
@@ -47,11 +47,6 @@ export default {
       indexName: 'vitepress'
     },
     nav: [
-      { text: 'Configs', link: '/config/intro', activeMatch: '/config/' },
-      {
-        text: 'Changelog',
-        link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-      }
     ],
     sidebar: [
         {
@@ -108,14 +103,12 @@ export default {
             { text: 'Tag Input', link: '/formtypes/tagInput'},
             { text: 'Upload', link: '/formtypes/upload'},
             { text: 'Visual Embed', link: '/formtypes/visualEmbed'},
-
           ]
         },
         {
           text: 'Hosting',
           collapsible: true,
           items: [
-            { text: 'Heroku', link: '/hosting/heroku/' },
             { text: 'Replit', link: '/hosting/repl/' },
             { text: 'Pterodactyl', link: '/hosting/pterodactyl/' },
           ]
