@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Soft UI
   text: A Feature packed Discord Dashboard theme!
-  tagline: Created by Plain and iMidnight
+  tagline: Created by Plain, iMidnight and ArtificialAI
   actions:
     - theme: brand
       text: Get Started
