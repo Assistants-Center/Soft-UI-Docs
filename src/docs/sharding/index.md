@@ -29,7 +29,8 @@ const DSU = require('dbdsoftuishardstats')
 
 DSU.register(manager, {
     dashboard_url: "your domain",
-    key: "your key"
+    key: "your key",
+    interval: 15
 })
 ```
 
@@ -39,8 +40,10 @@ const DSU = require('dbdsoftuishardstats')
 
 DSU.register(manager, {
     dashboard_url: "https://softui.assistantscenter.com",
-    key: "your key here!"
+    key: "your key here!",
+    interval: 15
 })
 ```
+If you want to adjust the interval of stats posting, just simply change the interval to as many seconds as you want.
 
 And we are done! Now just restart your dashboard and bot then the stats collection will begin.
