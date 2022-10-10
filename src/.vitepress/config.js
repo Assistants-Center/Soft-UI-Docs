@@ -47,8 +47,7 @@ export default {
       indexName: 'vitepress'
     },
     nav: [
-      { text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
-      { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
+      { text: 'Configs', link: '/config/intro', activeMatch: '/config/' },
       {
         text: 'Changelog',
         link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
@@ -88,6 +87,7 @@ export default {
             { text: 'Preloader', link: '/docs/preloader/' },
             { text: 'Sidebar', link: '/docs/sidebar/' },
             { text: 'Sharding', link: '/docs/sharding/' },
+            { text: 'Database Driver', link: '/docs/database-driver/' },
             { text: 'Meta', link: '/docs/meta/' },
             { text: 'Error', link: '/docs/error/' },
             { text: 'Sweet Alert', link: '/docs/sweetalert/' },
