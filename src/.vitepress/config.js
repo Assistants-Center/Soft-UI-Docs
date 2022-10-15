@@ -47,6 +47,14 @@ export default {
       indexName: 'vitepress'
     },
     nav: [
+      {
+        text: 'Introduction',
+        link: '/intro/'
+      },
+      {
+        text: 'FAQ',
+        link: '/faq/'
+      },
     ],
     sidebar: [
         {
@@ -63,6 +71,15 @@ export default {
           items: [
             { text: 'Installation', link: '/installation/' },
             { text: 'Setup', link: '/setup/' },
+          ]
+        },
+        {
+          text: 'Config',
+          collapsible: true,
+          items: [
+            { text: 'Theme Maintenance', link: '/theme-maintenance' },
+            { text: 'Theme 404', link: '/theme404' },
+            { text: 'Settings', link: '/settings/' }
           ]
         },
         {
