@@ -218,6 +218,11 @@ client.login(config.discord.token);
                 success: {
                     login: "Successfully logged in.",
                 }
+            },
+            preloader: {
+                image: "/img/soft-ui.webp",
+                spinner: false,
+                text: "Page is loading",
             },    
             admin: {
                 pterodactyl: {

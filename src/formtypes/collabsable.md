@@ -1,4 +1,7 @@
 # Collapsable Formtype
+Not available yet
+
+<!-- # Collapsable Formtype
 A [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) which returns an object for your option
 ## Example Usage
 ```js
@@ -28,4 +31,4 @@ optionType: SoftUI.formTypes.collapsable(
 | `options.children` | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | The Array of objects for the child formtypes. |
 
 ## Types
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) -->

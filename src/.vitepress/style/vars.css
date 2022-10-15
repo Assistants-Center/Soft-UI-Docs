@@ -3,20 +3,22 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-accent: #dab40b;
-  --vp-c-brand: #6da13f;
-  --vp-c-brand-light: #7ec242;
-  --vp-c-brand-lighter: #93d31c;
-  --vp-c-brand-dark: #668d11;
-  --vp-c-brand-darker: #52730d;
-  --vp-c-text-code: #5d6f5d;
+  --vp-c-accent: #7928CA;
+  --vp-c-brand: #ff0080;
+  --vp-c-brand-light: #FF0080;
+  --vp-c-brand-lighter: #ff3d9e;
+  --vp-c-brand-dark: #b3015a;
+  --vp-c-brand-darker: #7c003e;
+  --vp-c-text-code: #6f5d6e;
   --vp-code-block-bg: rgba(125,125,125,0.04);
   /* fix TIP on light: the default one is too light (2 in contrast) */
-  --vp-custom-block-tip-text: rgb(12, 124, 108);
-  --vp-custom-block-tip-border: rgba(12, 124, 108, 0.5);
+  --vp-custom-block-tip-text: rgb(124, 12, 74);
+  --vp-custom-block-tip-border: rgba(124, 12, 55, 0.5);
   --vp-custom-block-tip-bg: rgba(18, 181, 157, 0.1);
   /* fix contrast on gray cards: used by --vp-c-text-2 */
   --vp-c-text-light-2: rgba(56 56 56 / 70%);
+  --vp-home-hero-name-background: -webkit-linear-gradient( 310deg, #7928CA 0%, #FF0080 100% ) !important;
+  --vp-home-hero-image-background-image: linear-gradient( 310deg, #7928CA 0%, #FF0080 100% ) !important;
 }
 
 .dark {

@@ -9,12 +9,13 @@ theme: SoftUI({
                 {
                     title: "CPU",
                     icon: "single-02",
-                    getValue: os.cpus()[0].model.replace('(R) Core(TM) ', ' ').replace(' CPU ', '').split('@')[0],
+                    getValue: "Title",
                     progressBar: {
                         enabled: false,
-                        getProgress: 50
+                        getProgress: 50 // 0 - 100 (get a percentage of the progress)
                     }
                 }
+                // Include 3 more cards
             ]
 
             const graph = {

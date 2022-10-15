@@ -1,8 +1,11 @@
 # Modal Formtype
+Not available yet
+
+<!-- # Modal Formtype
 A [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) which returns an object for your option
 ## Example Usage
 ```js
-optionType: SoftUI.formtypes.collapsable.modal(
+optionType: SoftUI.formTypes.collapsable.modal(
     {
         optionId: 'collapsableSwitch',
         disabled: false,
@@ -28,4 +31,4 @@ optionType: SoftUI.formtypes.collapsable.modal(
 | `options.children` | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | The Array of objects for the child formtypes. |
 
 ## Types
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) -->
