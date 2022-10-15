@@ -13,9 +13,10 @@ settings: [
         categoryDescription: "Setup your bot with default settings!",
         categoryOptionsList: [
             {
-                
+
             }
         ]
     }
 ],
 ```
+
