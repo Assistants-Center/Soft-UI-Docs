@@ -2,7 +2,7 @@
 A [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) which returns an object for your option
 ## Example Usage
 ```js
-optionType: SoftUI.formtypes.collapsable.numberPicker(false),
+optionType: SoftUI.formTypes.numberPicker(false),
 ```
 
 ## Params
