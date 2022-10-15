@@ -21,10 +21,6 @@ theme: SoftUI({
 ```
 
 ## Properties
-* [commandName](/docs/commands/list/command/commandName)
-* [commandUsage](/docs/commands/list/command/commandUsage)
-* [commandDescription](/docs/commands/list/command/commandDescription)
-* [commandAlias](/docs/commands/list/command/commandAlias)
 
 ## Types
 - [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
