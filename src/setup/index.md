@@ -23,7 +23,7 @@ Paste the following code into the file and replace as necessary:
 The configuration above will not work unless you change the values of the properties.
 ## Creating index.js
 Create a new file, `index.js` (or anything you'd like) and paste the discord-dashboard handler into it.
-```js
+```js{21}
 // Define Packages
 const { Client, Intents } = require('discord.js');
 const config = require('./config.json');
@@ -44,7 +44,7 @@ client.login(config.discord.token);
         ownerIDs: config.dbd.ownerIDs,
         useThemeMaintenance: true,
         useTheme404: true,
-        bot: client, 
+        bot: client,
         settings: []
     });
     Dashboard.init();
@@ -63,12 +63,12 @@ const SoftUI = require('dbd-soft-ui');
 ```
 
 On line 21 of `index.js`, you'll see the following line of code:
-```js
-bot: client,// [!code ++]
+```js{1}
+bot: client,
 ```
 Press return to create a new line and place the following code on said line:
 ```js
-theme: SoftUI({ 
+theme: SoftUI({
     customThemeOptions: {
         index: async ({ req, res, config }) => {
             return {
@@ -147,10 +147,10 @@ This config is minimalised and is actually very customisable! View the [document
 You've successfully setup Soft-UI!
 
 Your code should look something along the lines of:
-```js
+```js{3,23-83}
 // Define Packages
 const { Client, Intents } = require('discord.js');
-const SoftUI = require('dbd-soft-ui');// [!code ++]
+const SoftUI = require('dbd-soft-ui');
 const config = require('./config.json');
 let DBD = require('discord-dashboard');
 
@@ -170,7 +170,7 @@ client.login(config.discord.token);
         useThemeMaintenance: true,
         useTheme404: true,
         bot: client,
-        theme: SoftUI({// [!code ++:61]
+        theme: SoftUI({
             customThemeOptions: {
                 index: async ({ req, res, config }) => {
                     return {
