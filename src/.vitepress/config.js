@@ -3,6 +3,7 @@ export default {
   description: '.',
   outDir: '../docs',
   base: '/soft-ui/',
+  cleanUrls: 'with-subfolders',
   head: [
       ['link', { rel: 'icon', href: 'favicon.ico' }],
       ['meta', { name: 'theme-color', content: '#3eaf7c' }],
