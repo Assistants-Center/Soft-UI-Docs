@@ -73,7 +73,7 @@ theme: SoftUI({
         index: async ({ req, res, config }) => {
             return {
                 values: [],
-                graphInfo: {},
+                graph: {}, // More info at https://dbd-docs.assistantscenter.com/soft-ui/docs/customThemeOptions/
                 cards: [],
             }
         },
