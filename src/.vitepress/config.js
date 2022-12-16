@@ -112,7 +112,7 @@ export default {
           text: 'Theme Formtypes',
           collapsible: true,
           items: [
-            { text: 'Collabsable', link: '/formtypes/collabsable' },
+            { text: 'Collapsable', link: '/formtypes/collapsable' },
             { text: 'Date', link: '/formtypes/date'},
             { text: 'Modal', link: '/formtypes/modal'},
             { text: 'Number Picker', link: '/formtypes/numberPicker'},
