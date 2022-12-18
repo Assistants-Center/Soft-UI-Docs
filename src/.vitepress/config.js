@@ -88,7 +88,7 @@ export default {
           items: [
             { text: 'Custom Theme Options', link: '/docs/customThemeOptions/' },
             { text: 'Addons', link: '/docs/addons' },
-            { text: 'Wesite Name', link: '/docs/websiteName' },
+            { text: 'Website Name', link: '/docs/websiteName' },
             { text: 'Color Scheme', link: '/docs/colorScheme' },
             { text: 'Support Email', link: '/docs/supporteMail' },
             { text: 'Locales', link: '/docs/locales' },
