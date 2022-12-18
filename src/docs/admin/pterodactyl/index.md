@@ -1,5 +1,6 @@
-# Admin > Pterodactyl
-## **[Parent: admin](/docs/admin/)**
+# Pterodactyl
+#### **[Parent: admin](/docs/admin/)**
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the information for the pterodactyl section of the admin page.
 
 ## Example Usage

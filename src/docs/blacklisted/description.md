@@ -1,5 +1,4 @@
-# Blacklisted > Description
-## [ThemeConfig].blacklisted.description
+# Description
 #### **[Parent: blacklisted](/docs/blacklisted/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which sets the description of the blacklisted page.

@@ -1,6 +1,5 @@
-# 
-#[ThemeConfig].sweetalert.errors.requirePremium
-### **[Parent: errors](/docs/sweetalert/errors/)**
+# Require Premium
+#### **[Parent: errors](/docs/sweetalert/errors/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which will be displayed to users trying to access a page that requires premium.
 
