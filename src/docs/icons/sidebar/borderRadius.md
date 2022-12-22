@@ -1,5 +1,4 @@
 # Border Radius
-#[ThemeConfig].icons.sidebar.borderRadius
 #### **[Parent: sidebar](/docs/icons/sidebar/)**
 
 A [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) which is whether you'd like to set the border radius of the icon.

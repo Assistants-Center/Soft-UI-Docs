@@ -1,5 +1,6 @@
-# Blacklisted > Button
-## [ThemeConfig].blacklisted.button
+# Button
+#### **[Parent: blacklisted](/docs/blacklisted/)**
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the information for the blacklisted button.
 
 ## Example Usage

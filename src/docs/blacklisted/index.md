@@ -1,5 +1,4 @@
-# 
-## [ThemeConfig].blacklisted
+# Blacklisted
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the information for the blacklisted page.
 
 ## Example Usage

@@ -1,5 +1,4 @@
-# 
-## [ThemeConfig].blacklisted.subtitle
+# Subtitle
 #### **[Parent: blacklisted](/docs/blacklisted/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which sets the subtitle of the blacklisted page.
