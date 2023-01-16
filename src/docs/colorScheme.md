@@ -19,7 +19,7 @@ theme: SoftUI({
 
 ## Custom Color Scheme
 
-You can also define your own color scheme by setting the `colorScheme` to `"custom"` and adding the  option.
+You can also define your own color scheme by setting the `colorScheme` to custom and adding the `themeColors` option.
 
 
 ### Example Usage
