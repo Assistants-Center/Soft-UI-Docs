@@ -51,5 +51,28 @@ Look no further!
                 }
             ]
         }
-    ]
+    ],
+```
+
+## Reload Category on save
+
+::: tip Reload Category on save? 
+You can make the dashboard reload the settings on save! 
+:::
+
+```js
+    settings: [
+        {
+            categoryId: 'input',
+            categoryName: `New Category`,
+            categoryImageURL: 'URL To image',
+            categoryDescription: "Setup your bot with default settings!",
+            refreshOnSave: true,
+            categoryOptionsList: [
+                {
+
+                }
+            ]
+        }
+    ],
 ```
