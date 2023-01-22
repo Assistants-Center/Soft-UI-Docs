@@ -1,9 +1,11 @@
 # Error
+
 #### **[Parent: errorHandler](/docs/error/errorHandler/)**
 
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) is returned when an error is thrown.
 
 ## Example
+
 ```js
 {
   type: 500,
@@ -21,4 +23,5 @@ An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Gl
 ```
 
 ## Types
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+-   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

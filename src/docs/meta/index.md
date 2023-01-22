@@ -1,7 +1,9 @@
 # Meta
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the meta information
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     meta: {
@@ -24,34 +26,36 @@ theme: SoftUI({
         twitterSiteId: "https://twitter.com/plainstuff",
         twitterCreator: "69",
         twitterCreatorId: "420",
-        twitterImage: "/img/soft-ui.webp",
+        twitterImage: "/img/soft-ui.webp"
     }
 })
 ```
 
 ## Properties
-* [author](/docs/meta/author)
-* [owner](/docs/meta/owner)
-* [description](/docs/meta/description)
-* [ogLocale](/docs/meta/ogLocale)
-* [ogTitle](/docs/meta/ogTitle)
-* [ogImage](/docs/meta/ogImage)
-* [ogType](/docs/meta/ogType)
-* [ogUrl](/docs/meta/ogUrl)
-* [ogSiteName](/docs/meta/ogSiteName)
-* [ogDescription](/docs/meta/ogDescription)
-* [twitterTitle](/docs/meta/twitterTitle)
-* [twitterDescription](/docs/meta/twitterDescription)
-* [twitterDomain](/docs/meta/twitterDomain)
-* [twitterUrl](/docs/meta/twitterUrl)
-* [twitterCard](/docs/meta/twitterCard)
-* [twitterSite](/docs/meta/twitterSite)
-* [twitterSiteId](/docs/meta/twitterSiteId)
-* [twitterCreator](/docs/meta/twitterCreator)
-* [twitterCreatorId](/docs/meta/twitterCreatorId)
-* [twitterImage](/docs/meta/twitterImage)
+
+-   [author](/docs/meta/author)
+-   [owner](/docs/meta/owner)
+-   [description](/docs/meta/description)
+-   [ogLocale](/docs/meta/ogLocale)
+-   [ogTitle](/docs/meta/ogTitle)
+-   [ogImage](/docs/meta/ogImage)
+-   [ogType](/docs/meta/ogType)
+-   [ogUrl](/docs/meta/ogUrl)
+-   [ogSiteName](/docs/meta/ogSiteName)
+-   [ogDescription](/docs/meta/ogDescription)
+-   [twitterTitle](/docs/meta/twitterTitle)
+-   [twitterDescription](/docs/meta/twitterDescription)
+-   [twitterDomain](/docs/meta/twitterDomain)
+-   [twitterUrl](/docs/meta/twitterUrl)
+-   [twitterCard](/docs/meta/twitterCard)
+-   [twitterSite](/docs/meta/twitterSite)
+-   [twitterSiteId](/docs/meta/twitterSiteId)
+-   [twitterCreator](/docs/meta/twitterCreator)
+-   [twitterCreatorId](/docs/meta/twitterCreatorId)
+-   [twitterImage](/docs/meta/twitterImage)
 
 ## Types
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+-   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ##### I had to create a file for every single one ;(

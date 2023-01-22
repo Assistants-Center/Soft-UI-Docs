@@ -1,19 +1,22 @@
 {
-  "name": "VitePress-Docs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.45",
-    "vitepress": "^1.0.0-alpha.13",
-    "vue": "^3.2.38"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev src",
-    "docs:build": "vitepress build src",
-    "docs:serve": "vitepress serve src"
-  },
-  "dependencies": {
-    "virtual": "^0.2.0"
-  }
+    "name": "VitePress-Docs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@vuepress/client": "^2.0.0-beta.45",
+        "install": "0.13.0",
+        "npm": "9.3.1",
+        "prettier": "2.8.3",
+        "vitepress": "^1.0.0-alpha.13",
+        "vue": "^3.2.38"
+    },
+    "scripts": {
+        "docs:dev": "vitepress dev src",
+        "docs:build": "vitepress build src",
+        "docs:serve": "vitepress serve src"
+    },
+    "dependencies": {
+        "virtual": "^0.2.0"
+    }
 }

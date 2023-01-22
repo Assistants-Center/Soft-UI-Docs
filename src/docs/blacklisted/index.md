@@ -1,7 +1,9 @@
 # Blacklisted
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the information for the blacklisted page.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     blacklisted: {
@@ -13,18 +15,20 @@ theme: SoftUI({
             text: "Return",
             link: "https://google.com"
         }
-    },
+    }
 })
 ```
 
 ## Properties
-* [title](/docs/blacklisted/title)
-* [subtitle](/docs/blacklisted/subtitle)
-* [description](/docs/blacklisted/description)
-* [button](/docs/blacklisted/button/)
-    * [enabled](/docs/blacklisted/button/enabled)
-    * [text](/docs/blacklisted/button/text)
-    * [link](/docs/blacklisted/button/link)
+
+-   [title](/docs/blacklisted/title)
+-   [subtitle](/docs/blacklisted/subtitle)
+-   [description](/docs/blacklisted/description)
+-   [button](/docs/blacklisted/button/)
+    -   [enabled](/docs/blacklisted/button/enabled)
+    -   [text](/docs/blacklisted/button/text)
+    -   [link](/docs/blacklisted/button/link)
 
 ## Types
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+-   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

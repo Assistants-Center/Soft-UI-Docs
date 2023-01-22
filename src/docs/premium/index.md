@@ -1,7 +1,9 @@
 # Premium
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) which contains all the premium information.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     premium: {
@@ -20,14 +22,16 @@ theme: SoftUI({
 ```
 
 ## Properties
-* [enabled](/docs/premium/enabled)
-* [card](/docs/premium/card/)
-  * [title](/docs/premium/card/title)
-  * [description](/docs/premium/card/description)
-  * [bgImage](/docs/premium/card/bgImage)
-  * [button](/docs/premium/card/button/)
-    * [text](/docs/premium/card/button/text)
-    * [url](/docs/premium/card/button/url)
+
+-   [enabled](/docs/premium/enabled)
+-   [card](/docs/premium/card/)
+    -   [title](/docs/premium/card/title)
+    -   [description](/docs/premium/card/description)
+    -   [bgImage](/docs/premium/card/bgImage)
+    -   [button](/docs/premium/card/button/)
+        -   [text](/docs/premium/card/button/text)
+        -   [url](/docs/premium/card/button/url)
 
 ## Types
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+-   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

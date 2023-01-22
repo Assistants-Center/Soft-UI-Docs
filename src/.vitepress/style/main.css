@@ -1,114 +1,114 @@
 .dark [img-light] {
-  display: none;
+    display: none;
 }
 
 ::-webkit-scrollbar {
-  background-color: #202324;
-  color: #aba499;
+    background-color: #202324;
+    color: #aba499;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #454a4d;
-  border-radius: 20px;
-  border: 6px solid transparent;
-  background-clip: content-box;
+    background-color: #454a4d;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #575e62;
+    background-color: #575e62;
 }
 ::-webkit-scrollbar-thumb:active {
-  background-color: #484e51;
+    background-color: #484e51;
 }
 ::-webkit-scrollbar-corner {
-  background-color: #181a1b;
+    background-color: #181a1b;
 }
 
 html:not(.dark) [img-dark] {
-  display: none;
+    display: none;
 }
 
-#meet-the-team, #the-team {
-  text-align: center;
+#meet-the-team,
+#the-team {
+    text-align: center;
 }
 
 .users {
-  display: flex;
-  flex-flow: wrap;
-  margin: 0 30px;
-  justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 30px;
+    justify-content: center;
 }
 
 .user {
-  border-radius: 50%;
-  margin: 5px;
+    border-radius: 50%;
+    margin: 5px;
 }
 
 /* Overrides */
 
 .VPSocialLink {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 
-.vp-doc th, .vp-doc td {
-  padding: 6px 10px;
-  border: 1px solid #8882;
+.vp-doc th,
+.vp-doc td {
+    padding: 6px 10px;
+    border: 1px solid #8882;
 }
 
 /* h3 breaks SEO => replaced with h2 with the same size */
 .home-content h2 {
-  margin-top: 2rem;
-  font-size: 1.35rem;
-  border-bottom: none;
-  margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 1.35rem;
+    border-bottom: none;
+    margin-bottom: 0;
 }
 
 img.resizable-img {
-  width: unset;
-  height: unset;
+    width: unset;
+    height: unset;
 }
 
 /* fix height ~ 2 lines of text: 3 or more cards per row */
 .VPTeamMembersItem.small .profile .data .affiliation {
-  min-height: 3rem;
+    min-height: 3rem;
 }
 .VPTeamMembersItem.small .profile .data .desc {
-  min-height: 3rem;
+    min-height: 3rem;
 }
 
 /* fix height ~ 3 lines of text: 4 cards per row */
 @media (min-width: 1064px) and (max-width: 1143px) {
-  .VPTeamMembersItem.small .profile .data .affiliation {
-    min-height: 4rem;
-  }
-  .VPTeamMembersItem.small .profile .data .desc {
-    min-height: 4rem;
-  }
+    .VPTeamMembersItem.small .profile .data .affiliation {
+        min-height: 4rem;
+    }
+    .VPTeamMembersItem.small .profile .data .desc {
+        min-height: 4rem;
+    }
 }
 /* fix height ~ 3 lines of text: 3 cards per row */
 @media (min-width: 815px) and (max-width: 875px) {
-  .VPTeamMembersItem.small .profile .data .affiliation {
-    min-height: 4rem;
-  }
-  .VPTeamMembersItem.small .profile .data .desc {
-    min-height: 4rem;
-  }
+    .VPTeamMembersItem.small .profile .data .affiliation {
+        min-height: 4rem;
+    }
+    .VPTeamMembersItem.small .profile .data .desc {
+        min-height: 4rem;
+    }
 }
 /* fix height ~ 3 lines of text: 2 cards per row */
 @media (max-width: 612px) {
-  .VPTeamMembersItem.small .profile .data .affiliation {
-    min-height: 4rem;
-  }
-  .VPTeamMembersItem.small .profile .data .desc {
-    min-height: 4rem;
-  }
+    .VPTeamMembersItem.small .profile .data .affiliation {
+        min-height: 4rem;
+    }
+    .VPTeamMembersItem.small .profile .data .desc {
+        min-height: 4rem;
+    }
 }
 /* fix height: one card per row */
 @media (max-width: 568px) {
-  .VPTeamMembersItem.small .profile .data .affiliation {
-    min-height: unset;
-  }
-  .VPTeamMembersItem.small .profile .data .desc {
-    min-height: unset;
-  }
+    .VPTeamMembersItem.small .profile .data .affiliation {
+        min-height: unset;
+    }
+    .VPTeamMembersItem.small .profile .data .desc {
+        min-height: unset;
+    }
 }
-
-

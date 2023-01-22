@@ -1,6 +1,6 @@
 # Frequently Asked Questions!
-## This is a list of frequently asked questions about the theme.
 
+## This is a list of frequently asked questions about the theme.
 
 > Here you can find questions that you may have before you begin!
 

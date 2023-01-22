@@ -1,9 +1,11 @@
 # URL
+
 #### **[Parent: link](/docs/index/card/link/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which will be displayed as a link on the footer of the card.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     index: {
@@ -17,4 +19,5 @@ theme: SoftUI({
 ```
 
 ## Types
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+-   [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)

@@ -14,7 +14,7 @@ underMaintenance: {
         "Therefore, we are introducing technical updates so that we can allow you to enjoy the quality of our services.",
         "Come back to us later or join our Discord Support Server"
     ],
-    
+
     // "Must contain 3 cards. All fields are optional - If card not wanted on maintenance page, infoCards can be deleted",
     infoCards: [
         {

@@ -1,9 +1,11 @@
 # No Guild Icon
+
 #### **[Parent: icons](/docs/icons/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which is the image of a guild with no icon.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     icons: {
@@ -13,4 +15,5 @@ theme: SoftUI({
 ```
 
 ## Types
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+-   [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)

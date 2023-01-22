@@ -56,8 +56,8 @@ Look no further!
 
 ## Reload Category on save
 
-::: tip Reload Category on save? 
-You can make the dashboard reload the settings on save! 
+::: tip Reload Category on save?
+You can make the dashboard reload the settings on save!
 :::
 
 ```js

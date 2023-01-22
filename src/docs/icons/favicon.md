@@ -1,9 +1,11 @@
 # Favicon
+
 #### **[Parent: icons](/docs/icons/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which is the favicon of the website.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     icons: {
@@ -13,4 +15,5 @@ theme: SoftUI({
 ```
 
 ## Types
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+-   [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)

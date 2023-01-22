@@ -1,4 +1,5 @@
 # Collapsable Formtype
+
 Not available yet
 
 <!-- # Collapsable Formtype
@@ -11,7 +12,7 @@ optionType: SoftUI.formTypes.collapsable(
         disabled: false,
         getActualSet: async ({guild}) => {},
         setNew: async ({guild, newValue}) => {}
-    }, 
+    },
     [
         {
             optionId: 'subOption',

@@ -1,4 +1,5 @@
 # Locales
+
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) containing all of the locales to be used.
 
 ::: info
@@ -6,21 +7,23 @@ The **top** most locale will be the default locale will be used when no locale i
 :::
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     locales: {
         enUS: {
-            name: 'English',
+            name: "English",
             index: {
                 feeds: ["Current Users", "CPU", "System Platform", "Server Count"],
                 card: {
                     category: "Soft UI",
                     title: "Assistants - The center of everything",
-                    description: "Assistants Discord Bot management panel. Assistants Bot was created to give others the ability to do what they want. Just.<br>That's an example text. <br><br><b><i>Feel free to use HTML</i></b>",
+                    description:
+                        "Assistants Discord Bot management panel. Assistants Bot was created to give others the ability to do what they want. Just.<br>That's an example text. <br><br><b><i>Feel free to use HTML</i></b>",
                     footer: "Learn More"
                 },
                 feedsTitle: "Feeds",
-                graphTitle: "Graphs",
+                graphTitle: "Graphs"
             },
             manage: {
                 settings: {
@@ -34,7 +37,7 @@ theme: SoftUI({
             privacyPolicy: {
                 title: "Privacy Policy",
                 description: "Privacy Policy and Terms of Service",
-                pp: "Complete Privacy Policy",
+                pp: "Complete Privacy Policy"
             },
             partials: {
                 sidebar: {
@@ -60,7 +63,7 @@ theme: SoftUI({
                         debug: "Debug",
                         leaderboard: "Leaderboard",
                         profile: "Profile",
-                        maintenance: "Under Maintenance",
+                        maintenance: "Under Maintenance"
                     }
                 },
                 title: {
@@ -75,7 +78,7 @@ theme: SoftUI({
                         debug: "Debug",
                         leaderboard: "Leaderboard",
                         profile: "Profile",
-                        maintenance: "Under Maintenance",
+                        maintenance: "Under Maintenance"
                     }
                 },
                 preloader: {
@@ -84,18 +87,18 @@ theme: SoftUI({
                 premium: {
                     title: "Want more from Assistants?",
                     description: "Check out premium features below!",
-                    buttonText: "Become Premium",
+                    buttonText: "Become Premium"
                 },
                 settings: {
                     title: "Site Configuration",
                     description: "Configurable Viewing Options",
                     theme: {
                         title: "Site Theme",
-                        description: "Make the site more appealing for your eyes!",
+                        description: "Make the site more appealing for your eyes!"
                     },
                     language: {
                         title: "Site Language",
-                        description: "Select your preffered language!",
+                        description: "Select your preffered language!"
                     }
                 }
             }
@@ -105,4 +108,5 @@ theme: SoftUI({
 ```
 
 ## Types:
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+-   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

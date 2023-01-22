@@ -1,9 +1,11 @@
 # Title
+
 ## **[Parent: card](/docs/index/card/)**
 
 A [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) which is the title of the card.
 
 ## Example Usage
+
 ```js
 theme: SoftUI({
     index: {
@@ -15,4 +17,5 @@ theme: SoftUI({
 ```
 
 ## Types
-- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+-   [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
