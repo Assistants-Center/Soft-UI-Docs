@@ -12,6 +12,10 @@ theme: SoftUI({
             apiKey: "myPterodactylApiKey",
             panelLink: "https://panel.example.com",
             serverUUIDs: ["server-uuid-1", "server-uuid-2"]
+        },
+        logs: {
+            enabled: false,
+            key: "place your key here!"
         }
     }
 })
@@ -24,6 +28,10 @@ theme: SoftUI({
     -   [apiKey](/docs/admin/pterodactyl/apiKey)
     -   [panelLink](/docs/admin/pterodactyl/panelLink)
     -   [serverUUIDs](/docs/admin/pterodactyl/serverUUIDs)
+    
+-  [logs](/docs/admin/logs/)
+    -   [enabled](/docs/admin/logs/enabled)
+    -   [key](/docs/admin/logs/key)
 
 ## Types
 

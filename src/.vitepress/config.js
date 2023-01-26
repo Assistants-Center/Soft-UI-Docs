@@ -99,6 +99,7 @@ export default {
                     { text: "Preloader", link: "/docs/preloader/" },
                     { text: "Sidebar", link: "/docs/sidebar/" },
                     { text: "Sharding", link: "/docs/sharding/" },
+                    { text: "Logs", link: "/docs/logs/" },
                     { text: "Database Driver", link: "/docs/database-driver/" },
                     { text: "Meta", link: "/docs/meta/" },
                     { text: "Error", link: "/docs/error/" },
