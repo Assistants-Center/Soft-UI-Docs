@@ -17,6 +17,8 @@ admin: {
 },
 ```
 
+For more information on how to setup the dashboard part, please see the [Admin Category](/docs/admin/) page.
+
 ## Bot setup
 
 Install the NPM package on your ****BOT****

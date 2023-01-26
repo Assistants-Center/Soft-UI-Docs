@@ -6,7 +6,7 @@ An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Gl
 
 ## Installation instructions
 
-You can find a full installation guide [here](/docs/logs)
+You can find a full installation guide [here](/docs/logs/)
 
 ## Example Usage
 
