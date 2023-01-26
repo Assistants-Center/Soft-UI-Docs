@@ -1,6 +1,6 @@
-# Sharding
+# Log Handler
 
-Soft-UI has a shards page built-in so if you use sharding you can publicly display statistics!
+This is a log handler for your bot. It will collect all the logs from your bot and display them in the dashboard's admin page.
 
 You can enable it by following these steps
 
