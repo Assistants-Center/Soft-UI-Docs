@@ -34,17 +34,18 @@ Almost done! Place this code into your ready event on the Sharding Manager or if
 ```js
 const DLU = require("dbd-soft-ui-logs")
 
+client.dlu = {
+    key: 'YOURKEYHERE',
+    dashboard_url: 'YOURURLHERE'
+}
+
 client.on("ready", () => {
-    DLU.register(client, {
-        dashboard_url: "YOURURLHERE",
-        key: "YOURKEYHERE"
-    })
+    DLU.register(client)
 })
 
-process.on("unhandledRejection", (reason, p) => {
+process.on('unhandledRejection', (reason, p) => {
     DLU.send(client, {
-        title: "Unhandled Rejection",
-        description: reason
+        description: reason,
     })
 })
 ```
