@@ -20,13 +20,13 @@ shardspage: {
 Install the NPM package on your \***\*Sharding Manager\*\***
 
 ```bash
-npm install dbd-soft-ui-shards
+npm install @dbd-soft-ui/shards
 ```
 
 Almost done! Place this code into your ready event on the Sharding Manager or if using discord-hybrid-sharding, after spawning the clusters.
 
 ```js
-const DSU = require("dbd-soft-ui-shards")
+const DSU = require("@dbd-soft-ui/shards")
 
 DSU.register(manager, {
     dashboard_url: "your domain",
@@ -38,7 +38,7 @@ DSU.register(manager, {
 It should look like this, except with your details:
 
 ```js
-const DSU = require("dbd-soft-ui-shards")
+const DSU = require("@dbd-soft-ui/shards")
 
 DSU.register(manager, {
     dashboard_url: "https://softui.assistantscenter.com",

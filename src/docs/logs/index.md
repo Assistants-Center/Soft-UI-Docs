@@ -26,13 +26,13 @@ admin: {
 ## setup
 
 ```bash
-npm install dbd-soft-ui-logs
+npm install @dbd-soft-ui/logs
 ```
 
 Almost done! Place this code into your ready event on the Sharding Manager or if using discord-hybrid-sharding, after spawning the clusters.
 
 ```js
-const DLU = require("dbd-soft-ui-logs")
+const DLU = require("@dbd-soft-ui/logs")
 
 client.on("ready", () => {
     DLU.register(client, {
@@ -52,7 +52,7 @@ process.on("unhandledRejection", (reason, p) => {
 It should look like this, except with your details:
 
 ```js
-const DLU = require("dbd-soft-ui-logs")
+const DLU = require("@dbd-soft-ui/logs")
 
 client.on("ready", () => {
     DLU.register(client, {
