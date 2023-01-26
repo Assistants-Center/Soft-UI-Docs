@@ -58,6 +58,11 @@ client.login(config.discord.token);
 })();
 ```
 
+::: warning ownerIDs
+`ownerIDs` is an array of Discord User IDs. These IDs will be able to access the dashboard's admin and perform admin actions such as creating feeds.<br>
+It must be an array, even if you only have one ID and also must be defined!
+:::
+
 ## Generating a license
 
 Before you can use discord-dashboard, you need to generate a [license](https://store.assistantscenter.com).<br>
@@ -154,7 +159,7 @@ theme: SoftUI({
 }),
 ```
 
-Majority of the code above is ****required**** and the theme will **_break_** if it is removed; take caution when removing parts of the config.<br>
+Majority of the code above is \***\*required\*\*** and the theme will **_break_** if it is removed; take caution when removing parts of the config.<br>
 
 This config is minimalised and is actually very customisable! View the [documentation]() to view all possible customisation options.
 

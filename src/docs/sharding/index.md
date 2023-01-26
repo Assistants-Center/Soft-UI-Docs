@@ -6,28 +6,27 @@ You can enable it by following these steps
 
 ## Dashboard setup
 
-Place this code into the theme options and change the key to your own ****SECURE**** string.
+Place this code into the theme config and change the key to your own \***\*SECURE\*\*** string.
 
 ```js
 shardspage: {
     enabled: true,
-
     key: "place your key here!",
 },
 ```
 
 ## Bot setup
 
-Install the NPM package on your ****Sharding Manager****
+Install the NPM package on your \***\*Sharding Manager\*\***
 
 ```bash
-npm install dbdsoftuishardstats
+npm install dbd-soft-ui-shards
 ```
 
 Almost done! Place this code into your ready event on the Sharding Manager or if using discord-hybrid-sharding, after spawning the clusters.
 
 ```js
-const DSU = require("dbdsoftuishardstats")
+const DSU = require("dbd-soft-ui-shards")
 
 DSU.register(manager, {
     dashboard_url: "your domain",
@@ -39,7 +38,7 @@ DSU.register(manager, {
 It should look like this, except with your details:
 
 ```js
-const DSU = require("dbdsoftuishardstats")
+const DSU = require("dbd-soft-ui-shards")
 
 DSU.register(manager, {
     dashboard_url: "https://softui.assistantscenter.com",
@@ -47,6 +46,10 @@ DSU.register(manager, {
     interval: 15
 })
 ```
+
+::: tip `key`
+The key is the same as the one you put in the dashboard options. Can be anything you want, just make sure it's secure and matches your dashboard.
+:::
 
 If you want to adjust the interval of stats posting, just simply change the interval to as many seconds as you want.
 
