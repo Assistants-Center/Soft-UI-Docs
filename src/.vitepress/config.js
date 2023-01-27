@@ -114,7 +114,9 @@ export default {
                 items: [
                     { text: "Collapsable", link: "/formtypes/collapsable" },
                     { text: "Date", link: "/formtypes/date" },
+                    { text: "Emoji Picker", link: "/formtypes/emojiPicker" },
                     { text: "Modal", link: "/formtypes/modal" },
+                    { text: "Multi Row", link: "/formtypes/multiRow" },
                     { text: "Number Picker", link: "/formtypes/numberPicker" },
                     { text: "Slider", link: "/formtypes/slider" },
                     { text: "Tag Input", link: "/formtypes/tagInput" },
