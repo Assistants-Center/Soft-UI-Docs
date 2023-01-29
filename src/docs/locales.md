@@ -6,6 +6,8 @@ An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Gl
 The **top** most locale will be the default locale will be used when no locale is detected from the browser. By not defining `themeConfig.locales` the themes premade locale will be used.
 :::
 
+::: gree
+
 ## Example Usage
 
 ```js

@@ -75,7 +75,7 @@ Now that we've setup the basic functionality of discord-dashboard, we can start 
 At the beginning of `index.js`, place this line of code:
 
 ```js
-const SoftUI = require("@dbd-soft-ui/core")
+const SoftUI = require("dbd-soft-ui")
 ```
 
 On line 21 of `index.js`, you'll see the following line of code:
