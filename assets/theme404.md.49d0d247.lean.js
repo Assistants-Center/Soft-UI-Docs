@@ -1,1 +1,0 @@
-import{_ as e,c as n,o as s,a}from"./app.9a0db2ea.js";const u=JSON.parse('{"title":"Theme Maintenance","description":"","frontmatter":{},"headers":[],"relativePath":"theme404.md","lastUpdated":1674906272000}'),t={name:"theme404.md"},o=a("",3),r=[o];function c(i,l,p,d,h,m){return s(),n("div",null,r)}const g=e(t,[["render",c]]);export{u as __pageData,g as default};
