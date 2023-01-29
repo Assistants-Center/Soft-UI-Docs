@@ -75,7 +75,7 @@ Now that we've setup the basic functionality of discord-dashboard, we can start 
 At the beginning of `index.js`, place this line of code:
 
 ```js
-const SoftUI = require("dbd-soft-ui")
+const SoftUI = require("@dbd-soft-ui/core")
 ```
 
 On line 21 of `index.js`, you'll see the following line of code:
@@ -117,21 +117,9 @@ theme: SoftUI({
         text: "Page is loading",
     },
     index: {
-        card: {
-            category: "Soft UI",
-            title: "Assistants - The center of everything",
-            description: "Assistants Discord Bot management panel. <b><i>Feel free to use HTML</i></b>",
-            image: "/img/soft-ui.webp",
-            link: {
-                text: "Visit the website",
-                enabled: true,
-                url: "https://google.com"
-            }
-        },
         graph: {
             enabled: true,
             lineGraph: false,
-            title: 'Memory Usage',
             tag: 'Memory (MB)',
             max: 100
         },
