@@ -2,11 +2,13 @@
 
 An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) containing all of the locales to be used.
 
+::: tip
+This is used to edit any of the text in the theme. You can also add your own locales to the theme to support multiple languages.
+:::
+
 ::: info
 The **top** most locale will be the default locale will be used when no locale is detected from the browser. By not defining `themeConfig.locales` the themes premade locale will be used.
 :::
-
-::: gree
 
 ## Example Usage
 
