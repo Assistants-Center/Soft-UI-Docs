@@ -101,17 +101,16 @@ theme: SoftUI({
     colorScheme: "pink",
     supporteMail: "support@support.com",
     icons: {
-        favicon: 'https://assistantscenter.com/wp-content/uploads/2021/11/cropped-cropped-logov6.png',
+        favicon: "https://assistantscenter.com/wp-content/uploads/2021/11/cropped-cropped-logov6.png",
         noGuildIcon: "https://pnggrid.com/wp-content/uploads/2021/05/Discord-Logo-Circle-1024x1024.png",
         sidebar: {
-            darkUrl: 'https://assistantscenter.com/img/logo.png',
-            lightUrl: 'https://assistantscenter.com/img/logo.png',
+            darkUrl: "https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794",
+            lightUrl: "https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794",
             hideName: true,
             borderRadius: false,
-            alignCenter: true
+            alignCenter: true,
         },
-    },
-    preloader: {
+    },er: {
         image: "/img/soft-ui.webp",
         spinner: false,
         text: "Page is loading",
