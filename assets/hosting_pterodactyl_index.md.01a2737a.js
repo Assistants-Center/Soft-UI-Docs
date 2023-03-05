@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.8cd6934f.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hosting/pterodactyl/index.md","lastUpdated":1678051845000}'),o={name:"hosting/pterodactyl/index.md"};function n(r,s,c,d,i,p){return a(),e("div")}const m=t(o,[["render",n]]);export{l as __pageData,m as default};
