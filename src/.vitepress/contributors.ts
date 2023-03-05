@@ -42,15 +42,6 @@ export const teamMembers: CoreTeam[] = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/47569748",
-        name: "ArtificialAI",
-        title: "Soft UI Developer",
-        links: [
-            { icon: "github", link: "https://github.com/artificialai223" },
-            { icon: "twitter", link: "https://twitter.com/SleekProgrammer" }
-        ]
-    },
-    {
         avatar: "https://avatars.githubusercontent.com/u/62174194",
         name: "Breathtake",
         title: "Discord Dashboard Developer",
