@@ -124,14 +124,14 @@ export default {
                     { text: "Visual Embed", link: "/formtypes/visualEmbed" }
                 ]
             },
-            {
-                text: "Hosting",
-                collapsible: true,
-                items: [
-                    { text: "Replit", link: "/hosting/repl/" },
-                    { text: "Pterodactyl", link: "/hosting/pterodactyl/" }
-                ]
-            }
+            // {
+            //     text: "Hosting",
+            //     collapsible: true,
+            //     items: [
+            //         { text: "Replit", link: "/hosting/repl/" },
+            //         { text: "Pterodactyl", link: "/hosting/pterodactyl/" }
+            //     ]
+            // }
         ]
     }
 }
