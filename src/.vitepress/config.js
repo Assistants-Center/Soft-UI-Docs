@@ -16,11 +16,19 @@ export default {
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:url", content: "https://dbd-docs.assistantscenter.com/soft-ui/" }],
         ["meta", { property: "og:description", content: "SOFT-UI. An awesome theme for discord-dashboard created by Plain and iMidnight!" }],
-        ["meta", { property: "og:image", content: "https://dbd-docs.assistantscenter.com/soft-ui/favicon.png" }],
+        ["meta", { property: "og:image", content: "https://softui.assistantscenter.com/img/soft-ui.webp" }],
         ["meta", { property: "og:image:width", content: "1200" }],
         ["meta", { property: "og:image:height", content: "630" }],
         ["meta", { property: "og:image:alt", content: "Soft UI Docs | Discord Dashboard" }],
-        ["meta", { property: "og:image:type", content: "image/png" }]
+        ["meta", { property: "og:image:type", content: "image/png" }],
+        ["meta", { property: "twitter:card", content: "summary_large_image" }],
+        ["meta", { property: "twitter:url", content: "https://dbd-docs.assistantscenter.com/soft-ui/" }],
+        ["meta", { property: "twitter:title", content: "Soft UI Docs | Discord Dashboard" }],
+        ["meta", { property: "twitter:description", content: "SOFT-UI. An awesome theme for discord-dashboard created by Plain and iMidnight!" }],
+        ["meta", { property: "twitter:image", content: "https://softui.assistantscenter.com/img/soft-ui.webp" }],
+        ["meta", { property: "twitter:image:alt", content: "Soft UI Docs | Discord Dashboard" }],
+        ["meta", { property: "owner", content: "Assistants Center" }],
+        ["meta", { property: "author", content: "Assistants Center" }]
     ],
     lastUpdated: true,
     markdown: {
