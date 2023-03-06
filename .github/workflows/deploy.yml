@@ -15,12 +15,21 @@ jobs:
                   node-version: 16
                   cache: yarn
             - run: yarn install --frozen-lockfile
+              env:
+                  API_KEY: ${{ secrets.APIKEY }}
+                  APP_ID: ${{ secrets.APPID }}
 
             - name: Build
               run: yarn docs:build
+              env:
+                  API_KEY: ${{ secrets.APIKEY }}
+                  APP_ID: ${{ secrets.APPID }}
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
+              env:
+                  API_KEY: ${{ secrets.APIKEY }}
+                  APP_ID: ${{ secrets.APPID }}
               with:
                   github_token: ${{ secrets.ACCESS_TOKEN }}
                   publish_dir: docs

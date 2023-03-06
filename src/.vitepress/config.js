@@ -42,9 +42,9 @@ export default {
             copyright: `Copyright © 2019-${new Date().getFullYear()} Assistants Center`
         },
         algolia: {
-            appId: "8J64VVRP8K",
-            apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-            indexName: "vitepress"
+            appId: process.env.APP_ID,
+            apiKey: process.env.API_KEY,
+            indexName: "dbd-assistantscenter"
         },
         nav: [
             {
