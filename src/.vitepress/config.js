@@ -4,7 +4,7 @@ export default {
     outDir: "../docs",
     base: "/soft-ui/",
     head: [
-        ["link", { rel: "icon", href: "favicon.ico" }],
+        ["link", { rel: "icon", href: "/soft-ui/favicon.png" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
         ["meta", { name: "apple-mobile-web-app-title", content: "Soft UI Docs" }],
@@ -15,6 +15,7 @@ export default {
         ["meta", { property: "og:title", content: "Soft UI Docs | Discord Dashboard" }],
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:url", content: "https://dbd-docs.assistantscenter.com/soft-ui/" }],
+
         ["meta", { property: "og:description", content: "SOFT-UI. An awesome theme for discord-dashboard created by Plain and iMidnight!" }],
         ["meta", { property: "og:image", content: "https://softui.assistantscenter.com/img/soft-ui.webp" }],
         ["meta", { property: "og:image:width", content: "1200" }],
@@ -38,7 +39,8 @@ export default {
         siteTitle: "Soft UI Docs",
         logo: "favicon.png",
         editLink: {
-            pattern: "https://github.com/Assistants-Center/Soft-UI-Docs",
+            pattern: "https://github.com/Discord-Dashboard/Soft-UI-Docs/tree/main/src/:path",
+
             text: "Suggest an edit."
         },
         lastUpdated: true,
