@@ -1,6 +1,6 @@
 # Custom Theme Options
 
-~~An [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) of addon IDs which will be imported into the theme.~~
+A [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) for the home page which is called to fetch data for the cards and graph.
 
 ### Example Usage
 
