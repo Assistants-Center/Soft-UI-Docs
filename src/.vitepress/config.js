@@ -119,6 +119,7 @@ export default {
                 text: "Theme Formtypes",
                 collapsible: true,
                 items: [
+                    { text: 'Index', link: '/formtypes/' },
                     { text: "Collapsable", link: "/formtypes/collapsable" },
                     { text: "Date", link: "/formtypes/date" },
                     { text: "Emoji Picker", link: "/formtypes/emojiPicker" },
