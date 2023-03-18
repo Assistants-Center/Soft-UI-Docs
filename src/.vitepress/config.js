@@ -102,6 +102,7 @@ export default {
                     { text: "Admin", link: "/docs/admin/" },
                     { text: "Icons", link: "/docs/icons/" },
                     { text: "Index", link: "/docs/index/" },
+                    { text: "Footer", link: "/docs/footer" },
                     { text: "Premium", link: "/docs/premium/" },
                     { text: "Preloader", link: "/docs/preloader/" },
                     { text: "Sidebar", link: "/docs/sidebar/" },
