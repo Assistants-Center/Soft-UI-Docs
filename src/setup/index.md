@@ -32,11 +32,11 @@ Create a new file, `index.js` (or anything you'd like) and paste the discord-das
 
 ```js{21}
 // Define Packages
-const { Client, Intents } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const config = require('./config.json');
 let DBD = require('discord-dashboard');
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.login(config.discord.token);
 
 (async ()=>{
@@ -110,7 +110,8 @@ theme: SoftUI({
             borderRadius: false,
             alignCenter: true,
         },
-    },er: {
+    },
+    preloader: {
         image: "/img/soft-ui.webp",
         spinner: false,
         text: "Page is loading",
@@ -158,12 +159,12 @@ Your code should look something along the lines of:
 
 ```js{3,23-83}
 // Define Packages
-const { Client, Intents } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const SoftUI = require('dbd-soft-ui');
 const config = require('./config.json');
 let DBD = require('discord-dashboard');
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.login(config.discord.token);
 
 (async ()=>{

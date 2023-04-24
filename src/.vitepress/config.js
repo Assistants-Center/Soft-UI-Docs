@@ -129,8 +129,7 @@ export default {
                     { text: "Number Picker", link: "/formtypes/numberPicker" },
                     { text: "Slider", link: "/formtypes/slider" },
                     { text: "Tag Input", link: "/formtypes/tagInput" },
-                    { text: "Upload", link: "/formtypes/upload" },
-                    { text: "Visual Embed", link: "/formtypes/visualEmbed" }
+                    { text: "Upload", link: "/formtypes/upload" }
                 ]
             },
             // {
