@@ -39,6 +39,15 @@ let DBD = require('discord-dashboard');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.login(config.discord.token);
 
+const Handler = new DBD.Handler(
+    /*
+            Keyv storage instance
+            Example: { store: new KeyvMongo('mongodb://user:pass@localhost:27017/dbname') }
+
+            Can be left empty to use the default storage (Keyv with SQLite)
+        */
+);
+
 (async ()=>{
     await DBD.useLicense(config.dbd.license);
     DBD.Dashboard = DBD.UpdatedClass();
@@ -88,6 +97,7 @@ Press return to create a new line and place the following code on said line:
 
 ```js
 theme: SoftUI({
+    storage: Handler,
     customThemeOptions: {
         index: async ({ req, res, config }) => {
             return {
@@ -167,6 +177,15 @@ let DBD = require('discord-dashboard');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.login(config.discord.token);
 
+const Handler = new DBD.Handler(
+    /*
+            Keyv storage instance
+            Example: { store: new KeyvMongo('mongodb://user:pass@localhost:27017/dbname') }
+
+            Can be left empty to use the default storage (Keyv with SQLite)
+        */
+);
+
 (async ()=>{
     await DBD.useLicense(config.dbd.license);
     DBD.Dashboard = DBD.UpdatedClass();
@@ -181,6 +200,7 @@ client.login(config.discord.token);
         useTheme404: true,
         bot: client,
         theme: SoftUI({
+            storage: Handler,
             customThemeOptions: {
                 index: async ({ req, res, config }) => {
                     return {
