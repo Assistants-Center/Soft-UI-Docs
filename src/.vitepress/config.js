@@ -101,6 +101,7 @@ export default {
                     { text: "Admin", link: "/docs/admin/" },
                     { text: "Icons", link: "/docs/icons/" },
                     { text: "Index", link: "/docs/index/" },
+                    { text: "Footer", link: "/docs/footer" },
                     { text: "Premium", link: "/docs/premium/" },
                     { text: "Preloader", link: "/docs/preloader/" },
                     { text: "Sidebar", link: "/docs/sidebar/" },
@@ -118,6 +119,7 @@ export default {
                 text: "Theme Formtypes",
                 collapsible: true,
                 items: [
+                    { text: 'Index', link: '/formtypes/' },
                     { text: "Collapsable", link: "/formtypes/collapsable" },
                     { text: "Date", link: "/formtypes/date" },
                     { text: "Emoji Picker", link: "/formtypes/emojiPicker" },
@@ -126,8 +128,7 @@ export default {
                     { text: "Number Picker", link: "/formtypes/numberPicker" },
                     { text: "Slider", link: "/formtypes/slider" },
                     { text: "Tag Input", link: "/formtypes/tagInput" },
-                    { text: "Upload", link: "/formtypes/upload" },
-                    { text: "Visual Embed", link: "/formtypes/visualEmbed" }
+                    { text: "Upload", link: "/formtypes/upload" }
                 ]
             },
             // {
