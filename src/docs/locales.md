@@ -20,7 +20,7 @@ theme: SoftUI({
             index: {
                 feeds: ["Current Users", "CPU", "System Platform", "Server Count"],
                 card: {
-                    image: "link to image"
+                    image: "link to image",
                     category: "Soft UI",
                     title: "Assistants - The center of everything",
                     description:
@@ -37,6 +37,43 @@ theme: SoftUI({
                         info: "Info",
                         server: "Server Information"
                     }
+                },
+                title: "Your Servers",
+                description: "Manage your guilds",
+            },
+            admin: {
+                feeds: {
+                    feedBuilder: "Feed Builder 1",
+                    feedIcon: "Feed Icon 1",
+                    feedDescription: "Feed Description 1",
+                    feedColour: "Feed Color 1",
+                    colors: {
+                        pink: "Pink 1",
+                        red: "Red 1",
+                        orange: "Orange 1",
+                        green: "Green 1",
+                        gray: "Gray 1",
+                        blue: "Blue 1",
+                        dark: "Dark 1",
+                    },
+                    feedSubmit: "Submit 1",
+                    feedFeedPreview: "Feed Preview 1",
+                    feedPreview: "Preview 1",
+                    feedCurrent: "Current Feeds 1",
+                    feedShowIcons: "Show Icons 1",
+                },
+                admin: {
+                    title: "Admin Controls",
+                    adminUpdates: "Check for Updates",
+                },
+            },
+            guild: {
+                home: "Home",
+                settingsCategory: "Settings",
+                updates: {
+                    title: "Changes seen!",
+                    reset: "Reset",
+                    save: "Save",
                 }
             },
             privacyPolicy: {
@@ -68,7 +105,9 @@ theme: SoftUI({
                         debug: "Debug",
                         leaderboard: "Leaderboard",
                         profile: "Profile",
-                        maintenance: "Under Maintenance"
+                        maintenance: "Under Maintenance",
+                        pages: "Pages",
+                        dashboard: "Settings",
                     }
                 },
                 title: {
@@ -99,7 +138,10 @@ theme: SoftUI({
                     description: "Configurable Viewing Options",
                     theme: {
                         title: "Site Theme",
-                        description: "Make the site more appealing for your eyes!"
+                        description: "Make the site more appealing for your eyes!",
+                        dark: "Dark",
+                        light: "Light",
+                        auto: "Auto"
                     },
                     language: {
                         title: "Site Language",
