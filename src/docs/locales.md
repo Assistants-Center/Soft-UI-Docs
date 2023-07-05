@@ -20,7 +20,7 @@ theme: SoftUI({
             index: {
                 feeds: ["Current Users", "CPU", "System Platform", "Server Count"],
                 card: {
-                    image: "link to image"
+                    image: "link to image",
                     category: "Soft UI",
                     title: "Assistants - The center of everything",
                     description:
