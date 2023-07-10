@@ -112,7 +112,7 @@ theme: SoftUI({
     supporteMail: "support@support.com",
     icons: {
         favicon: "https://assistantscenter.com/wp-content/uploads/2021/11/cropped-cropped-logov6.png",
-        noGuildIcon: "https://pnggrid.com/wp-content/uploads/2021/05/Discord-Logo-Circle-1024x1024.png",
+        noGuildIcon: "https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png",
         sidebar: {
             darkUrl: "https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794",
             lightUrl: "https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794",
