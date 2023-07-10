@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.63a0c99f.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hosting/repl/index.md","lastUpdated":1688998508000}'),n={name:"hosting/repl/index.md"};function r(o,s,c,d,i,p){return a(),t("div")}const m=e(n,[["render",r]]);export{l as __pageData,m as default};
