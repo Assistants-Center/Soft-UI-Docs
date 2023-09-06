@@ -121,11 +121,6 @@ theme: SoftUI({
             alignCenter: true,
         },
     },
-    preloader: {
-        image: "/img/soft-ui.webp",
-        spinner: false,
-        text: "Page is loading",
-    },
     index: {
         graph: {
             enabled: true,
@@ -225,16 +220,6 @@ const Handler = new DBD.Handler(
                 },
             },
             index: {
-                card: {
-                    category: "Soft UI",
-                    title: "Assistants - The center of everything",
-                    description: "Assistants Discord Bot management panel. <b><i>Feel free to use HTML</i></b>",
-                    image: "/img/soft-ui.webp",
-                    link: {
-                        enabled: true,
-                        url: "https://google.com"
-                    }
-                },
                 graph: {
                     enabled: true,
                     lineGraph: false,
