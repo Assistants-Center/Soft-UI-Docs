@@ -7,6 +7,7 @@ An [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Gl
 ```js
 theme: SoftUI({
     icons: {
+        backgroundImage: "https://www.imageshine.in/uploads/gallery/geometric-Blue-Wallpaper-Free-Download.jpg",
         favicon: "https://assistantscenter.com/wp-content/uploads/2021/11/cropped-cropped-logov6.png",
         noGuildIcon: "https://pnggrid.com/wp-content/uploads/2021/05/Discord-Logo-Circle-1024x1024.png",
         sidebar: {
@@ -22,6 +23,7 @@ theme: SoftUI({
 
 ## Properties
 
+-   [backgroundImage](/docs/icons/backgroundImage)
 -   [favicon](/docs/icons/favicon)
 -   [noGuildIcon](/docs/icons/noGuildIcon)
 -   [sidebar](/docs/icons/sidebar/)
